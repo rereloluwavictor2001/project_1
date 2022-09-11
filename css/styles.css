@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    padding: 7% 15%;
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+}
+h1 {
+    
+    font-family: "Fraunces";
+    padding: 7% 0;
+}
+.col-6 h1 {
+    color: hsl(158, 36%, 37%);
+}
+.container-fluid {
+    text-align: center;
+}
+p {
+    font-family: "Montserrat";
+    font-weight:500;
+    color: hsl(228, 12%, 48%);
+    margin-bottom:0;
+}
+.btn {
+    border-radius: 8px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 75px;
+}
+
+.image-div {
+    padding: 0;
+    text-align: right;
+}
+.image {
+    width: 320px;
+    height:480px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.second-container {
+    padding: 27.646px;
+    text-align: left;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 320px
+}
+.dollar {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding: 20px 20px;
+}
+.cart {
+    text-align: center;
+}
+.bottom-container {
+    margin-top: 7%;
+}
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .image {
+        width: 320px;
+        height:480px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+    .image-div {
+        padding: 0;
+        text-align: left;
+        height: 360px;
+        
+    }
+    .second-container {
+        padding: 27.646px;
+        text-align: left;
+        background-color: white;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 0;
+        width: 320px;
+    }
+    .dollar {
+        padding:15px 10px;
+    }
+}
