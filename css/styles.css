@@ -1,7 +1,7 @@
 body {
     text-align: center;
     padding: 7% 15%;
-    font-size: 14px;
+    font-size: 0.875rem;
     background-color: hsl(30, 38%, 92%);
 }
 h1 {
@@ -22,14 +22,14 @@ p {
     margin-bottom:0;
 }
 .btn {
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background-color: hsl(158, 36%, 37%);
     color: white;
     text-align: center;
     font-family: "Montserrat";
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
-    padding: 12px 75px;
+    padding: 0.75rem 4.688rem;
 }
 
 .image-div {
@@ -37,25 +37,25 @@ p {
     text-align: right;
 }
 .image {
-    width: 320px;
-    height:480px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    width: 20rem;
+    height: 30rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 .second-container {
-    padding: 27.646px;
+    padding: 1.728rem;
     text-align: left;
     background-color: white;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    width: 320px
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    width: 20rem;
 }
 .dollar {
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat';
     font-weight: 500;
-    padding: 20px 20px;
+    padding: 1.25rem;
 }
 .cart {
     text-align: center;
@@ -67,30 +67,30 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 62rem) {
     .image {
-        width: 320px;
-        height:480px;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
+        width: 20rem;
+        height: 30rem;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
         border-bottom-left-radius: 0;
     }
     .image-div {
         padding: 0;
         text-align: left;
-        height: 360px;
+        height: 22.5rem;
         
     }
     .second-container {
-        padding: 27.646px;
+        padding: 1.728rem;
         text-align: left;
         background-color: white;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
         border-top-right-radius: 0;
-        width: 320px;
+        width: 20rem;
     }
     .dollar {
-        padding:15px 10px;
+        padding: 0.938rem 0.625rem;
     }
 }
